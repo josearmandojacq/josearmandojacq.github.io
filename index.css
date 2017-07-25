@@ -1,3 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*--------Header------*/
+#firstheader{
+
+  height: 800px;
+  display:block;
+  text-align: center;
+  background-image: url("../src/Fotos/office.jpg");
+  background-size: cover;
+
+}
+
+#firstheader > h1{
+  padding-top: 300px;
+  font-size: 60px;
+  color: white;
+}
+
+#firstheader > h2{
+  margin-top: 30px;
+  font-size: 40px;
+  color: white;
+}
+
+#header-nav{
+  margin-top: 90px;
+  position: absolute;
+  left: 500px;
+}
+
+#header-nav li{
+  float: left;
+  width: 80px;
+  list-style-type: none;
+}
+
+#line-between{
+  position: absolute;
+  left: 250px;
+  border: 1px solid white;
+  width: 820px;
+  box-shadow: 1px 1px grey;
+  margin-top: 20px
+
+}
+
+
+/*----------------Main--------------*/
+main{
+  margin-top: 30px;
+}
+
+
+
+#personalLife-content{
+  height: 100px;
+  text-align: center;
+}
+
+#personalLife-content > p{
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face {
   font-family: 'fontello';
   src: url('../font/fontello.eot?60647525');
