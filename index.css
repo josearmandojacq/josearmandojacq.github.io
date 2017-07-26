@@ -54,16 +54,77 @@ main{
   margin-top: 30px;
 }
 
-
-
 #personalLife-content{
+  width: 400px;
   height: 100px;
+  left: 70px;
+  top: 904px;
+  display: inline-block;
   text-align: center;
 }
 
-#personalLife-content > p{
-  text-align: left;
+#personalLife-content header{
+  margin-bottom: 15px;
 }
+
+.position{
+  position: absolute;
+
+
+}
+
+#personalLife-text{
+  left: 100px;
+  width: 500px;
+  text-align: left;
+
+}
+
+#separator{
+  position: absolute;
+  left: 100px;;
+  width: 1000px;
+  height: 1px;
+  background-color: black;
+}
+
+#professionalLife-content{
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+  right: 70px;
+  top: 905px;
+  text-align: center;
+}
+
+#professionalLife-content header{
+  margin-bottom: 15px;
+
+}
+
+#professionalLife-text{
+  width: 500px;
+  text-align: left;
+
+}
+
+/*---------Image----------*/
+figure{
+  position: absolute;
+  left: 550px;
+  top: 70px;
+
+}
+
+img{
+
+  width: 90px;
+  border-radius: 50%;
+
+}
+
+
+
 
 
 
